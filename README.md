@@ -5,16 +5,29 @@ This repo contains the implementation of the UI/design task given in the intervi
 
 ---
 
-## 🚀 Demo
+## Demo
 
 [Live Demo](https://cyberia-tech-challenge.netlify.app/)
 
-## 🧰 Tech Stack 
+### Scenario (Picked)
+**Web Application: Architecture Firm Portfolio**  
+
+Create a React-based website to showcase an architecture firm's portfolio.
+
+#### Features to Implement
+- A responsive homepage with the firm's mission and featured projects.  
+- A "Portfolio" page with a grid layout for project cards. Each card should display a project image and title.  
+- A detailed project page for individual projects, including a description, image carousel, and contact button.  
+- A contact form with validation (e.g., name, email, message fields).  
+
+
+---
+## Tech Stack 
 - JavaScript - TypeScript - Nextjs - Tailwindcss  
 
 ---
 
-## 💡 Getting Started
+## Getting Started
 
 To run the project locally:
 
