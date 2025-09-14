@@ -53,7 +53,7 @@ export function Hero() {
               We create innovative, sustainable architectural solutions that transform spaces and inspire communities.
               From residential homes to commercial complexes, our designs blend functionality with aesthetic excellence.
             </p>
-            <div className="flex gap-4 px-8">
+            <div className="flex gap-4 px-8 mb-8">
               <Button size="lg" asChild>
                 <Link href="/portfolio">View Our Work</Link>
               </Button>
