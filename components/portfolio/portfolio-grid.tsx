@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/display/badge"
 import { ArrowRight, Filter } from "lucide-react"
 import { projects, getProjectsByCategory } from "@/lib/projects"
 
-const categories = ["All", "Residential", "Commercial", "Public", "Educational"]
+const categories = ["All", "Residential", "Commercial", "Public"]
 
 export function PortfolioGrid() {
   const [selectedCategory, setSelectedCategory] = useState("All")
@@ -133,7 +133,7 @@ export function PortfolioGrid() {
 
         {/* Call to Action */}
         {filteredProjects.length > 0 && (
-          <div className="text-center p-8 rounded-lg mt-16 ml-16 bg-muted">
+          <div className="text-center p-8 rounded-lg mt-16 bg-muted">
             <h3 className="text-2xl font-bold mb-4">Ready to Start Your Project?</h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto text-pretty">
               Let's discuss how we can bring your architectural vision to life. Our team is ready to create something

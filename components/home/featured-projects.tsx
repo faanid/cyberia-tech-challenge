@@ -10,7 +10,7 @@ export function FeaturedProjects() {
 
   return (
     <section className="py-24 text-left items-stretch justify-center">
-      <div className="container justify-center px-0 mx-12">
+      <div className="container justify-center px-0">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-balance">Featured Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
