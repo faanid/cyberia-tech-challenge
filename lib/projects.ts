@@ -102,24 +102,7 @@ export const projects: Project[] = [
     ],
     featured: false,
   },
-  {
-    id: "school-campus",
-    title: "Innovation School Campus",
-    shortDescription: "Educational facility designed for future learning",
-    description:
-      "A forward-thinking educational campus that supports innovative teaching methods and collaborative learning. The design includes flexible classrooms, maker spaces, and outdoor learning areas that adapt to various educational needs.",
-    category: "Educational",
-    year: "2021",
-    location: "Pasadena, CA",
-    area: "150,000 sq ft",
-    images: [
-      "/placeholder.svg?height=600&width=800",
-      "/placeholder.svg?height=600&width=800",
-      "/placeholder.svg?height=600&width=800",
-      "/placeholder.svg?height=600&width=800",
-    ],
-    featured: false,
-  },
+ 
 ]
 
 export function getFeaturedProjects(): Project[] {
