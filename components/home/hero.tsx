@@ -43,7 +43,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-black/40" />
       </div>
 
-      <div className="relative z-10 flex h-full items-center">
+      <div className="relative z-10 flex h-full items-center pb-20">
         <div className="container">
           <div className="max-w-2xl text-white">
             <h1 className="text-5xl font-bold leading-tight text-balance mb-6 px-8">
