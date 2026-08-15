@@ -94,7 +94,6 @@ export function ContactForm() {
     try {
       await new Promise((resolve) => setTimeout(resolve, 2000))
       setIsSubmitted(true)
-      console.log("Form submitted:", formData)
     } catch (error) {
       console.error("Form submission error:", error)
     } finally {

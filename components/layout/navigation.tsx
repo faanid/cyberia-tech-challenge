@@ -21,10 +21,10 @@ export function Navigation() {
           <div className="h-8 w-8 bg-primary rounded-md flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-lg">A</span>
           </div>
-          <span className="font-bold text-xl">Cyberia Architecture</span>
+          <span className="font-bold text-xl hidden sm:inline">Cyberia Architecture</span>
         </Link>
 
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-3 sm:space-x-6">
           {navItems.map((item) => (
             <Link
               key={item.href}
