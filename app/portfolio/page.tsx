@@ -10,7 +10,7 @@ export const metadata = {
 export default function PortfolioPage() {
   return (
     <main>
-      <section className="py-24 bg-ring">
+      <section className="py-24 bg-muted">
         <div className="container">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 text-balance">Our Portfolio</h1>

@@ -129,7 +129,7 @@ export function ContactForm() {
   }
 
   return (
-    <Card className="bg-amber-50">
+    <Card>
       <CardHeader>
         <CardTitle className="text-2xl">Tell Us About Your Project</CardTitle>
       </CardHeader>

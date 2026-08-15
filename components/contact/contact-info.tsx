@@ -6,7 +6,7 @@ export function ContactInfo() {
   return (
     <div className="space-y-8">
       {/* Contact Details */}
-      <Card className="bg-amber-50">
+      <Card>
         <CardHeader>
           <CardTitle className="text-2xl">Contact Information</CardTitle>
         </CardHeader>
@@ -58,7 +58,7 @@ export function ContactInfo() {
       </Card>
 
       {/* Social Media */}
-      <Card className="bg-amber-50">
+      <Card>
         <CardHeader>
           <CardTitle className="text-xl">Follow Us</CardTitle>
         </CardHeader>
