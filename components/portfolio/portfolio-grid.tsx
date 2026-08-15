@@ -60,7 +60,7 @@ export function PortfolioGrid() {
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mx-9">
           {filteredProjects.map((project) => (
-            <Card key={project.id} className="group overflow-hidden hover:shadow-xl transition-all duration-300 text-card-foreground bg-amber-50">
+            <Card key={project.id} className="group overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src={project.images[0] || "/placeholder.svg"}
@@ -133,7 +133,7 @@ export function PortfolioGrid() {
 
         {/* Call to Action */}
         {filteredProjects.length > 0 && (
-          <div className="text-center p-8 rounded-lg mt-16 ml-16 bg-ring">
+          <div className="text-center p-8 rounded-lg mt-16 ml-16 bg-muted">
             <h3 className="text-2xl font-bold mb-4">Ready to Start Your Project?</h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto text-pretty">
               Let's discuss how we can bring your architectural vision to life. Our team is ready to create something
